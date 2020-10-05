@@ -13,3 +13,10 @@
 
 <p>O trabalho que segue é uma base de dados com 888 imagens, realizado como EP1 da matéria MAC0417/5768 - Visão e Processamento de Imagens, ministrada pelo professor Roberto Marcondes Cesar Junior, IME-USP. As imagens correspondem a 10 classes diferentes de objetos cotidianos. O programa faz um apêndice das fotos e gera uma tabela mnist aleatória com a nossa base de dados.<br>
 
+# Requeriments
+Instalação da biblioteca Google Drive Downloader:
+
+    pip install googledrivedownloader
+     
+Fonte: https://github.com/ndrplz/google-drive-downloader
+    
