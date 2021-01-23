@@ -19,11 +19,23 @@
     
 * EP2.2 - Normalizar por equalização as fotos obtidas no data augmentation e aplicar algumas funções de análise em cada classe do dataset: protótipo médio, histograma médio e variãncia média.
     
-   
+<p> No EP3, parte final do trabalho foi separada em duas partes: <br>
+    
+* EP3.1 - Construir um conjunto de imagens segmentadas de forma binária manualmente, após isso, com um algoritmo de nossa escolha, realizamos a segmentação automática das imagens restantes. O trabalho disso pode ser encontrado no primeiro notebook do EP3. O algoritmo escolhido foi uma rede inteiramente convolucional chamada U-Net. O artigo de origem encontra-se no final do notebook; 
+    
+* EP3.2 - A segunda parte tinha como objetivo a classificação dos objetos de interesse. Essa se encontra no segundo notebook desta seção do trabalho, onde além disso há também os pipelines para as duas partes, envolvendo o blob e feretbox. Finalmente, encontra-se um relatório de perfomance, nesse mesmo notebook, com relação às duas partes finais do projeto.
+    
+    
 # Requeriments
 Instalação da biblioteca Google Drive Downloader:
 
     pip install googledrivedownloader
      
 Fonte: https://github.com/ndrplz/google-drive-downloader
-    
+
+# Requeriments EP03
+
+No arquivo 3.1.requeriments.txt encontra-se as versões dos pacotes usados no primeiro notebook desse EP03.
+
+    pip install /path/para/3.1.requeriments.txt
+
